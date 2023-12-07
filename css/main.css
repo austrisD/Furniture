@@ -1,0 +1,40 @@
+/*default styles*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family:"Mukta" sans-serif;
+}
+html{
+  font-size: 62.5%;
+}
+/*end of default styles*/
+.navbar{
+  width: 100%;
+  height: 19rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 1rem 5rem rgb(0,0,0,.1);
+}
+.navbar-top{
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+}
+.navbar-top div{
+  margin:  0 4rem;
+}
+.logo i{
+  font-size: 6rem;
+  color: #F8872b;
+  margin-right: 2rem;
+}
+.logo span{
+  font-size: "kenia" cursive;
+  font-size: 4rem;
+  letter-spacing: 3rem;
+  color: #073e72;
+}
